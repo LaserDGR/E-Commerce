@@ -367,6 +367,7 @@ label {
 
 .galleryImg {
   width: 100%;
+  height: 78%;
 }
 
 .newSeason {
@@ -405,8 +406,26 @@ footer {
 
 .footerLeft {
   flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
 }
 
 .footerRight {
   flex: 1;
+  padding: 50px;
 }
