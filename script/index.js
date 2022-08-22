@@ -1,3 +1,16 @@
+/* Lenguage*/
+const check  = document.querySelector(".check");
+check.addEventListener("click", idioma);
+
+function idioma() {
+  let id = check.checked;
+  if (id === true){
+    location.href="esp/index.html"
+  } else {
+    location.href="../index.html"
+  }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------- */
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 
